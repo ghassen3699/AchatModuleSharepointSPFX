@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "demande-formulaire-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demandeFormulaire/DemandeFormulaireWebPart.js",
+          "manifest": "./src/webparts/demandeFormulaire/DemandeFormulaireWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DemandeFormulaireWebPartStrings": "lib/webparts/demandeFormulaire/loc/{locale}.js"
+  }
+}
